@@ -42,7 +42,7 @@ To get it running, follow the steps below:
 
 ```diff
 # Install dependencies
-pnpm i
+npm i
 
 # In packages/db/prisma update schema.prisma provider to use sqlite
 # or use your own database provider
@@ -54,7 +54,7 @@ pnpm i
 cp .env.example .env
 
 # Push the Prisma schema to your database
-pnpm db-push
+npm db-push
 ```
 
 ### Configure Expo `dev`-script
@@ -70,7 +70,7 @@ pnpm db-push
 +  "dev": "expo start --ios",
 ```
 
-3. Run `pnpm dev` at the project root folder.
+3. Run `npm dev` at the project root folder.
 
 #### For Android
 
